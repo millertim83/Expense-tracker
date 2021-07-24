@@ -8,6 +8,30 @@
     </head>
     <body>
         <h1>Expense Tracker</h1>
+        <form id="expense-input">
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input" placeholder="mm/dd/yyyy">
+            
+            <label for="expense-amount">Price:</label>
+            <input type="text" id="expense-amount" placeholder="How much did it cost?">
+            
+            <label for="expense-description">Expense description:</label>
+            <input type="text" id="expense-description" placeholder="What did you buy?">
+            
+            <label for="purchase-location">Purchase Location:</label>
+            <input type="text" id="purchase-location" placeholder="Where did you buy it">
+            
+            <label for="payment-method">Payment method</label>
+            <select name="payment-method" id="payment-method">
+                <option value="null"></option>
+                <option value="cash">Cash</option>
+                <option value="debit">Debit</option>
+                <option value="credit">Credit</option>
+                <option value="venmo">Venmo</option>
+                <option value="paypal">Paypal</option>
+                <option value="other">Other</option>
+            </select>
+        </form>
         <table>
             <thead>
                 <tr>
@@ -19,7 +43,7 @@
                 </tr>
             </thead>
             <tbody>
-                
+
             </tbody>
         </table>
         <script src="script.js"></script>
