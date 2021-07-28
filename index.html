@@ -8,19 +8,19 @@
     </head>
     <body>
         <h1>Expense Tracker</h1>
-        <div id="input-form">
+        <div id="input-form-container">
             <form id="expense-input-form">
                 <label for="date-input">Date:</label>
-                <input type="date" id="date-input" placeholder="mm/dd/yyyy">
+                <input type="date" id="date-input" placeholder="mm/dd/yyyy"><br>
                 
                 <label for="expense-amount">Price:</label>
-                <input type="text" id="expense-amount" placeholder="How much did it cost?">
+                <input type="number" id="expense-amount" placeholder="How much did it cost?"><br>
                 
                 <label for="expense-description">Expense description:</label>
                 <input type="text" id="expense-description" placeholder="What did you buy?"><br>
                 
                 <label for="purchase-location">Purchase Location:</label>
-                <input type="text" id="purchase-location" placeholder="Where did you buy it">
+                <input type="text" id="purchase-location" placeholder="Where did you buy it"><br>
                 
                 <label for="payment-method">Payment method</label>
                 <select name="payment-method" id="payment-method">
@@ -31,7 +31,7 @@
                     <option value="venmo">Venmo</option>
                     <option value="paypal">Paypal</option>
                     <option value="other">Other</option>
-                </select>
+                </select><br>
                 
                 <button id="submit-expense-button">Submit</button> 
     
